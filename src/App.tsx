@@ -11,7 +11,7 @@ import ChartUI from './components/ChartUI';
 function App() {
 
     const dataFetcherOutput = useFetchData();
-
+    
     return (
         <Grid container spacing={5} sx={{ justifyContent: 'center', alignItems: 'center' }}>
             {/* Encabezado */}
