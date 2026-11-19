@@ -12,6 +12,7 @@ import TableUI from './components/TableUI';
 import useFetchData from './hooks/useFetchData';
 
 function App() {
+    const { data, loading, error } = useFetchData();
 
     const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
